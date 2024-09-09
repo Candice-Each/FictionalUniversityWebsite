@@ -1,0 +1,70 @@
+div h2 {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    clear: both;
+}
+
+#d1,
+#d2 {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    background-color: rgba(32, 0, 108, 0.09);
+    clear: both;
+}
+
+#video1,
+#video2 {
+    float: right;
+}
+
+p {
+    padding: 30px 20px;
+    font-size: 25px;
+}
+
+br {
+    clear: both;
+}
+
+table {
+    display: table;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    clear: both;
+}
+
+th,
+td {
+    border: solid 1px black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th {
+    background-color: rgba(223, 222, 255, 0.636);
+    transition: background-color 0.7s linear;
+    -webkit-transition: background-color 0.7s linear;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(234, 242, 255);
+    transition: background-color 0.7s linear;
+    -webkit-transition: background-color 0.7s linear;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.7s linear;
+    -webkit-transition: background-color 0.7s linear;
+}
+
+tr:hover {
+    background-color: rgb(173, 170, 209);
+}

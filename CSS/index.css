@@ -1,0 +1,54 @@
+#Welcome {
+  display: block;
+  width: 95%;
+  margin: auto;
+  background-color: rgba(200, 192, 215, 0.6);
+  clear: both;
+  padding: 20px;
+}
+
+#Welp {
+  display: block;
+  animation-duration: 3s;
+  animation-name: amplify;
+}
+
+@keyframes amplify {
+  from {
+    width: 200%;
+  }
+
+  75% {
+    font-size: 200%;
+    width: 150%;
+  }
+
+  to {
+    width: 95%;
+  }
+}
+
+#information {
+  display: block;
+  max-width: 40%;
+  float: left;
+  padding: 20px;
+}
+
+#Location {
+  display: block;
+  max-width: 40%;
+  float: left;
+  padding: 20px;
+}
+
+#Apply {
+  display: block;
+  max-width: 40%;
+  min-width: 170px;
+  float: left;
+}
+
+#lo {
+  max-width: 100%;
+}

@@ -1,0 +1,64 @@
+#imga {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+#welcome {
+    display: block;
+    width: 80%;
+    margin: auto;
+    border: 2px black dotted;
+    padding: 10px;
+    background-color: rgb(241, 244, 255);
+}
+
+table {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: solid 1px black;
+}
+
+caption {
+    background-color: rgb(229, 219, 245);
+    font-weight: 700;
+    font-size: 17px;
+}
+
+th {
+    background-color: rgba(223, 222, 255, 0.636);
+    transition: background-color 0.7s linear;
+    -webkit-transition: background-color 0.7s linear;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(234, 242, 255);
+    transition: background-color 0.7s linear;
+    -webkit-transition: background-color 0.7s linear;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.7s linear;
+    -webkit-transition: background-color 0.7s linear;
+}
+
+tr:hover {
+    background-color: rgb(173, 170, 209);
+}
+
+#w1,
+#w2 {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+}
+#im{
+    max-width: 100%;
+}

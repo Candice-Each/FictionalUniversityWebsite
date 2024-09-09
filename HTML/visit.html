@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../CSS/header_and_footer.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../CSS/Visit.css" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Hong Kong Industrial University
+    </title>
+    <meta name="author" content="indu">
+    <meta name="description" content="yuchipan2 task">
+</head>
+
+<body>
+    <div id="hn">
+        <header>
+            <img src="../image/logo.png" alt="image/logo.png" id="logo">
+            <h1>Hong Kong Industrial University</h1>
+        </header>
+        <nav class="nav"><a href="../index.html"><img src="../image/logo2.png" alt="image/logo2.png" id="log"></a>
+            <ul>
+                <li>
+
+                    <h5><a href="../index.html">Home</a></h5>
+                </li>
+                <li>
+                    <h5><a href="about.html">About</a></h5>
+                </li>
+                <li>
+                    <h5><a href="apply.html">Apply</a></h5>
+                </li>
+                <li>
+                    <h5><a href="visit.html">Visit</a></h5>
+                </li>
+                <li>
+                    <h5><a href="program.html">Program</a></h5>
+                </li>
+                <li>
+                    <h5><a href="contact.html">Contact</a></h5>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="home"><a href="../index.html">Home</a></div>
+    <div id="welcome">
+        <p>We warmly welcome you to visit us at our Kowloon campus and experience our vibrant learning community. Our
+            campus is located in the Hong Kong Kowloon High-Tech Park, where we collaborate closely with institutes of
+            the Chinese Academy of Sciences.</p>
+
+        <p>During your visit, you can explore our world-class facilities, including the Protein Folding Science Center,
+            Hong Kong Advanced Computing Equipment, Hong Kong Ultrafast Laser Facility, Hong Kong Electron-Positron
+            Collider, and Hong Kong Supercomputer Facility. These facilities are available to our faculty, students, and
+            researchers worldwide.</p>
+
+        <p>You will also have the chance to meet our renowned scholars and experts from home and abroad committed to
+            providing students with cutting-edge knowledge and skills in their respective fields. Our faculty members
+            are recognized leaders in their fields, and their research has been published in prestigious journals such
+            as Cell, Nature, and Science.</p>
+
+        <p>We hope you will come and visit us soon to experience firsthand the dynamic and innovative community at Hong
+            Kong Industrial University.</p>
+    </div>
+    <div>
+        <img src="../image/location.jpg" alt="location" id="map">
+        <dl id="location">
+            <dt>Location</dt>
+            <dd>Address:Tat Chee Avenue,Kowloon,Hong Kong SAR</dd>
+            <dd>Tel:(852) 1234 5678</dd>
+            <dd>Fax:(852) 8765 4321</dd>
+            <dd>Email: visit@hkiu.edu.hk</dd>
+        </dl>
+    </div>
+
+    <p id="call">Hong Kong Industrial University is having an open day on campus! Please make a reservation to visit our
+        campus!</p>
+    <div id="booking">
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Booking information:</legend>
+                <label for="date"> Date: </label>
+                <input type="date" id="date" name="date" value=""><br>
+                <label for="Time">Time:</label>
+                <select id="Time" name="Time">
+                    <option value="8:30-9:30am">8:30-9:30am</option>
+                    <option value="9:30-10:30am">9:30-10:30am</option>
+                    <option value="10:30-11:30am">10:30-11:30am</option>
+                    <option value="1:30-2:30pm">1:30-2:30pm</option>
+                    <option value="2:30-3:30pm">2:30-3:30pm</option>
+                    <option value="3:30-4:30pm">3:30-4:30pm</option>
+                </select><br>
+                <label for="number">No.of Visitors:</label>
+                <input type="number" id="number" name="number" value=""><br>
+                <p id="err"></p>
+                <input type="button" value="Check Availability" id="check" onclick="f();">
+                <input type="reset" value="Reset" id="reset">
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <img src="../image/footer_logo.png" width="300" height="100" alt="footer_logo.png">
+        <h6>&copy;2023 - sources of images and text from Wikipedia and Courtesy of Icon pack byIcons8 - designed by
+            <a href="design.html">Pan Yuchi</a>
+        </h6>
+    </footer>
+    <script src="../JavaScript/visit.js"></script>
+    <script src="https://personal.cs.cityu.edu.hk/~cs2204/2023/cw3cs2204.js"></script>
+</body>
+
+</html>

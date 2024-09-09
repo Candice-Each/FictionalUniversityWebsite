@@ -1,0 +1,56 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: block;
+    text-align: center;
+    clear: both;
+}
+
+a {
+    color: black;
+}
+
+div,
+nav,
+#home,
+#welcome {
+    display: none;
+}
+
+th,
+td {
+    border: solid 1px black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+
+#submit {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px 6px 6px 6px;
+    padding: 3px 5px;
+    margin: 0 10px;
+}
+
+#clear {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px 6px 6px 6px;
+    padding: 3px 5px;
+    margin: 0 10px;
+}
+
+footer {
+    display: block;
+    margin: auto;
+    text-align: center;
+    clear: both;
+}
