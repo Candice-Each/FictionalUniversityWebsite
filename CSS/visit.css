@@ -1,0 +1,68 @@
+#welcome {
+    display: block;
+    width: 100%;
+    background-color: rgba(200, 192, 215, 0.6);
+    clear: both;
+    padding: 20px;
+}
+
+#map {
+    display: block;
+    max-width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+#location {
+    display: block;
+    max-width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+#call {
+    display: block;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    clear: both;
+}
+
+#booking {
+    display: block;
+    max-width: 600px;
+    margin: auto;
+    clear: both;
+    padding: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+#err {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#err.lack{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: red;
+}
+
+#check {
+    display: inline-block;
+    border-radius: 6px;
+    margin: 5px 20px 5px 100px;
+}
+
+#reset {
+    display: inline-block;
+    border-radius: 6px;
+    margin: 5px 20px;
+}
